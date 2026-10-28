@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" role="img" aria-label="ЧЕЛОВЕК ПАУК">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4d1019"/><stop offset="1" stop-color="#080a11"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#e52c38" stop-opacity=".72"/><stop offset="1" stop-color="#e52c38" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#fff" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="600" height="720" fill="url(#g)"/>
+<rect width="600" height="720" fill="url(#grid)"/>
+<circle cx="330" cy="290" r="260" fill="url(#glow)"/>
+<circle cx="300" cy="286" r="175" fill="none" stroke="#e52c38" stroke-opacity=".65" stroke-width="2"/>
+<circle cx="300" cy="286" r="145" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1"/>
+<path d="M300 80 L440 160 L475 310 L380 430 L220 430 L125 310 L160 160 Z" fill="#e52c38" fill-opacity=".15" stroke="#e52c38" stroke-width="3"/>
+<path d="M300 118 L398 176 L423 300 L354 382 L246 382 L177 300 L202 176 Z" fill="#080a11" fill-opacity=".45" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
+<text x="300" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="140" font-weight="900" fill="#fff" fill-opacity=".92">S</text>
+<path d="M50 492H550" stroke="#e52c38" stroke-width="4"/>
+<text x="50" y="548" font-family="Arial,sans-serif" font-size="33" font-weight="800" letter-spacing="3" fill="#fff">ЧЕЛОВЕК</text>
+<text x="50" y="592" font-family="Arial,sans-serif" font-size="33" font-weight="800" letter-spacing="3" fill="#fff">ПАУК</text>
+<text x="50" y="654" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="5" fill="#e52c38">MARVEL CHARACTER ARCHIVE</text>
+<text x="550" y="685" text-anchor="end" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#fff" fill-opacity=".45">EARTH-616 / FILE 04</text>
+</svg>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Каталог героев киновселенной Marvel — фильмы, персонажи и их истории.">
+  <title>Marvel Universe — каталог героев</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Marvel Universe — главная">
+      <span class="brand-mark">M</span>
+      <span>MARVEL <span class="brand-light">UNIVERSE</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="#heroes">Герои</a>
+      <a href="#about">О проекте</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему">
+      <span id="themeIcon" aria-hidden="true">☾</span>
+      <span id="themeLabel">Тёмная тема</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero-banner" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> MARVEL CINEMATIC UNIVERSE</p>
+        <h1 id="hero-title">Герои.<br><span>Легенды.</span> Вселенная.</h1>
+        <p class="hero-description">Истории тех, кто меняет ход событий. Познакомься с героями, чьи решения определяют судьбу целых миров.</p>
+        <a class="primary-button" href="#heroes">Исследовать вселенную <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-core">M</div>
+        <div class="floating-label label-top">EARTH-616</div>
+        <div class="floating-label label-bottom">AVENGERS INITIATIVE</div>
+      </div>
+      <div class="banner-index"><span>01</span> / MARVEL ARCHIVE</div>
+    </section>
+
+    <section class="catalog-section" id="heroes">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE CHARACTER FILES</p>
+          <h2>Знакомься с <span>легендами</span></h2>
+        </div>
+        <p class="section-note">Избранные герои киновселенной<br>Marvel — от гения до бога грома.</p>
+      </div>
+
+      <div class="filter-row" aria-label="Фильтры героев">
+        <button class="filter-chip active" data-filter="all" type="button">Все герои <span>06</span></button>
+        <button class="filter-chip" data-filter="avengers" type="button">Мстители</button>
+        <button class="filter-chip" data-filter="cosmic" type="button">Космос</button>
+      </div>
+
+      <div class="character-grid">
+        <article class="character-card" data-category="avengers">
+          <div class="card-image image-iron">
+            <img src="img/iron-man.svg" alt="Стилизованный постер Железного человека">
+            <span class="card-number">01</span>
+            <span class="card-tag">TECH / AVENGER</span>
+          </div>
+          <div class="card-body">
+            <p class="character-universe">TONY STARK</p>
+            <h3>Железный человек</h3>
+            <p>Гениальный изобретатель, создавший высокотехнологичную броню и изменивший представление о героизме.</p>
+            <div class="card-footer"><span>Первое появление: 2008</span><span class="card-arrow">↗</span></div>
+          </div>
+        </article>
+
+        <article class="character-card" data-category="avengers">
+          <div class="card-image image-cap">
+            <img src="img/captain-america.svg" alt="Стилизованный постер Капитана Америки">
+            <span class="card-number">02</span>
+            <span class="card-tag">LEADER / AVENGER</span>
+          </div>
+          <div class="card-body">
+            <p class="character-universe">STEVE ROGERS</p>
+            <h3>Капитан Америка</h3>
+            <p>Символ мужества и стойкости. Суперсолдат, который всегда ставит команду и принципы выше себя.</p>
+            <div class="card-footer"><span>Первое появление: 2011</span><span class="card-arrow">↗</span></div>
+          </div>
+        </article>
+
+        <article class="character-card" data-category="cosmic">
+          <div class="card-image image-thor">
+            <img src="img/thor.svg" alt="Стилизованный постер Тора">
+            <span class="card-number">03</span>
+            <span class="card-tag">ASGARD / COSMIC</span>
+          </div>
+          <div class="card-body">
+            <p class="character-universe">THOR ODINSON</p>
+            <h3>Тор</h3>
+            <p>Бог грома из Асгарда. Владеет могучим оружием и учится, что настоящая сила — в ответственности.</p>
+            <div class="card-footer"><span>Первое появление: 2011</span><span class="card-arrow">↗</span></div>
+          </div>
+        </article>
+
+        <article class="character-card" data-category="avengers">
+          <div class="card-image image-spider">
+            <img src="img/spider-man.svg" alt="Стилизованный постер Человека-паука">
+            <span class="card-number">04</span>
+            <span class="card-tag">FRIENDLY / HERO</span>
+          </div>
+          <div class="card-body">
+            <p class="character-universe">PETER PARKER</p>
+            <h3>Человек-паук</h3>
+            <p>Юный герой с невероятной ловкостью и чувством ответственности, защищающий свой город и близких.</p>
+            <div class="card-footer"><span>Первое появление в MCU: 2016</span><span class="card-arrow">↗</span></div>
+          </div>
+        </article>
+
+        <article class="character-card" data-category="avengers">
+          <div class="card-image image-strange">
+            <img src="img/doctor-strange.svg" alt="Стилизованный постер Доктора Стрэнджа">
+            <span class="card-number">05</span>
+            <span class="card-tag">MYSTIC / SORCERER</span>
+          </div>
+          <div class="card-body">
+            <p class="character-universe">STEPHEN STRANGE</p>
+            <h3>Доктор Стрэндж</h3>
+            <p>Бывший хирург, ставший мастером мистических искусств и защитником реальности от магических угроз.</p>
+            <div class="card-footer"><span>Первое появление: 2016</span><span class="card-arrow">↗</span></div>
+          </div>
+        </article>
+
+        <article class="character-card" data-category="cosmic">
+          <div class="card-image image-panther">
+            <img src="img/black-panther.svg" alt="Стилизованный постер Чёрной Пантеры">
+            <span class="card-number">06</span>
+            <span class="card-tag">WAKANDA / KING</span>
+          </div>
+          <div class="card-body">
+            <p class="character-universe">T'CHALLA</p>
+            <h3>Чёрная Пантера</h3>
+            <p>Король Ваканды и защитник её народа, соединяющий древние традиции с передовыми технологиями.</p>
+            <div class="card-footer"><span>Первое появление: 2016</span><span class="card-arrow">↗</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-symbol" aria-hidden="true">✦</div>
+      <div>
+        <p class="eyebrow">BEYOND THE SCREEN</p>
+        <h2>Одна вселенная.<br><span>Бесконечно историй.</span></h2>
+      </div>
+      <p class="about-copy">Этот каталог — учебный веб-проект о персонажах Marvel. Он демонстрирует адаптивную вёрстку, CSS Grid, Flexbox и интерактивность на JavaScript.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">M</span><span>MARVEL <span class="brand-light">UNIVERSE</span></span></a>
+    <p>Учебный проект · 2026</p>
+    <a class="back-top" href="#">Наверх ↑</a>
+  </footer>
+</body>
+</html>
